@@ -1,0 +1,35 @@
+format = "$directory$git_branch$character"
+
+add_newline = true
+
+palette = "violet_dusk"
+
+[palettes.violet_dusk]
+bg          = "#231b2b"
+fg          = "#e5e1e9"
+muted       = "#928f99"
+
+red         = "#ffb4ab"
+pink        = "#ecb8ce"
+lavender    = "#c8c3dc"
+violet      = "#c7bfff"
+
+selection   = "#48464f"
+cursor      = "#cac0d1"
+
+[directory]
+style = "fg:violet"
+truncation_length = 2
+
+[git_branch]
+symbol = ""
+style = "fg:pink"
+format = "[$symbol $branch ]($style)"
+
+[character]
+success_symbol = "[❯](fg:violet)"
+error_symbol   = "[❯](fg:red)"
+vimcmd_symbol  = "[❮](fg:pink)"
+
+[package]
+disabled = true

@@ -1,0 +1,10 @@
+*
+*/.git
+
+!.gitignore
+!*/
+!zellij/
+!zellij/*
+!nvim/
+!nvim/init.lua
+!starship.toml
